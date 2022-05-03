@@ -1,0 +1,43 @@
+.user-detail-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding: 10px;
+    height: 73px;
+    width: 420px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    &:last-child {
+        align-items: flex-end;
+    }
+}
+
+.user-detail-info {}
+
+.user-name {}
+
+.user-city {}
+
+.user-company {}
+
+@mixin font-props($font-color, $font-size) {
+    color: $font-color;
+    font-size: $font-size;
+}
+
+.user-data-title {
+    @include font-props(#A3A3A3, 11px);
+}
+
+.user-data {
+    @include font-props(#000000, 11px);
+}
+
+.user-detail-btn {
+    margin: 0;
+    border-radius: 0;
+    color: #4B51EF;
+    background-color: #F3F3F3;
+    font-size: 12px;
+}

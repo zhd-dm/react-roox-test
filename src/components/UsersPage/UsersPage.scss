@@ -1,0 +1,11 @@
+.users-list-wrapper {
+    margin-top: 19px;
+    &:last-child {
+        margin-bottom: 19px;
+    }
+}
+
+.users-list-title {
+    font-weight: 700;
+    font-size: 14px;
+}

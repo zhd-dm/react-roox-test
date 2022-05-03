@@ -1,0 +1,12 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    margin-right: 34px;
+    padding: 35px 20px;
+    background-color: #BDBDBD;
+    .sidebar-title {
+        font-size: 12px;
+        color: #000000;
+    }
+}
